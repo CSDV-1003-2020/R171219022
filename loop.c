@@ -6,7 +6,7 @@ main()
    {
       printf("\n");
       for(j=1;j<=l;j++)//nested for statement
-      printf("%d",i);
+      printf("%d",i);//for printing an integer
    }
  
 }
