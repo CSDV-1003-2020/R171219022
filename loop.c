@@ -5,7 +5,7 @@ main()
      for(i=1;i<=l;i++)
    {
       printf("\n");
-      for(j=1;j<=l;j++)
+      for(j=1;j<=l;j++)//nested for statement
       printf("%d",i);
    }
  
