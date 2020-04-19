@@ -25,4 +25,29 @@ np->next=save;
 }
 }
 
+void pop()                    //function for deleting values
+{
+if(top==NULL)
+  cout<<"UNDERFLOW!!\n";
+  else
+   {
+     ptr=top;
+     top=top->next;
+     delete ptr;
+   }
+}
+
+
+
+
+void display(node*np)          //function for displaying contents
+{
+   while(np!=NULL)
+   {
+    cout<<np->item<<endl;
+    np=np->next;
+   }
+}
+
+
 
