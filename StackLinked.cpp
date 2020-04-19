@@ -1,4 +1,5 @@
 #include<iostream>
+#include<process>                 //important header file 
 using namespae std;
 struct node                       //declared node structure
 {
@@ -48,6 +49,20 @@ void display(node*np)          //function for displaying contents
     np=np->next;
    }
 }
-
-
+void main()                       //main function 
+{
+  top=NULL;
+  int item1;
+  int ch;
+do
+  {
+   clrscr();
+   cout<<"\t\t\tMENU\n";	//Menu
+   cout<<"\t1.PUSHING\n";
+   cout<<"\t2.POPPING\n";
+   cout<<"\t3.DISPLAY\n";
+   cout<<"\t4.EXIT\n";
+   cout<<"Enter your choice(1-4)...\n";
+   cin>>ch;
+}
 
