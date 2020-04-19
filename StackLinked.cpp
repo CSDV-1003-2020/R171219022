@@ -13,3 +13,16 @@ ptr->next=NULL;
 return ptr;
 }
 
+void push(node*np)                 // push function for inserting values
+{
+if(top==NULL)
+top=np;
+else
+{
+save=top;
+top=np;
+np->next=save;
+}
+}
+
+
