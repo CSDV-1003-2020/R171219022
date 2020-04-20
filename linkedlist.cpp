@@ -3,6 +3,7 @@
 using namespace std;
 class Node
 {
+ master
   public:
 	  int data;
 	  Node *next;//declaring a pointer of node type (pointer is nothing but a variable whic
@@ -28,4 +29,5 @@ rear->next=save;
 rear=np;
 }
 }
+
 
