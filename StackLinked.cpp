@@ -89,6 +89,16 @@ do
          cin>>ch2;
         }
         break;
+	case 3:cout<<"The stack is:\n";
+        pop();
+        break;
+     case 4:break;
+     default:cout<<"INVALID CHOICE\n";
+         break;
+   }
+}while(ch!=4);
+getch();
+clrscr();
 
 }
 
