@@ -64,5 +64,31 @@ do
    cout<<"\t4.EXIT\n";
    cout<<"Enter your choice(1-4)...\n";
    cin>>ch;
+      switch(ch)
+   {
+     case 1:char ch1='y';
+        while(ch1=='y'||ch1=='Y')
+        {
+         cout<<"Enter the item to be pushed\n";
+         cin>>item1;
+         newptr=create_node(item1);
+         push(newptr);
+         cout<<"Now the stack is:\n";
+         display(top);
+         cout<<"Do you want to push more elements?(y/n)..\n";
+         cin>>ch1;
+        }
+        break;
+     case 2:char ch2='y';
+        while(ch2=='y'||ch2=='Y')
+        {
+         pop();
+         cout<<"Now the stack is:\n";
+         display(top);
+         cout<<"Do you want to pop more elements?(y/n)..\n";
+         cin>>ch2;
+        }
+        break;
+
 }
 
